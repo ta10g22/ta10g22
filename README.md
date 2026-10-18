@@ -17,68 +17,16 @@ I'm particularly interested in understanding and improving how **machine learnin
   * Memory-efficient model execution
   * Hardware/software co-design for AI acceleration
 
-## 🚀 Projects
 
-### TinyInfer — C++ Machine Learning Inference Runtime
-
-Building a lightweight **machine learning inference runtime from scratch in C++** to explore how models are represented, optimised, and efficiently executed on hardware.
-
-Current work includes:
-
-* **ONNX model and weight loading**
-* Computational graph construction and execution
-* Modular tensor and operator implementations
-* Linear, ReLU, Softmax and matrix multiplication operators
-* **Cache-blocked and multithreaded GEMM kernels**
-* Graph optimisations including **operator fusion, constant folding, and dead-code elimination**
-* Benchmarking custom kernels against established ML frameworks
-* Exploring profiling, memory planning, and buffer reuse for efficient inference
-
-The project is designed to develop a deeper understanding of the full ML execution stack:
-
-`Model → Graph → Optimisation → Runtime → Kernels → Hardware`
-
-### RISC-V Sparse Matrix Accelerator
-
-Designed a custom accelerator for sparse matrix operations integrated with a **RISC-V system**, exploring hardware/software co-design for efficient computation.
-
-* Developed synthesizable hardware
-* Created a memory-mapped software interface
-* Wrote bare-metal C firmware to control the accelerator
-* Explored hardware acceleration for sparse workloads
-
-### MIPS 5-Stage Pipeline Simulator
-
-Built a **C++ simulator for a pipelined MIPS processor** with:
-
-* 5-stage instruction pipeline
-* Data forwarding
-* Hazard detection
-* Load-use stalls
-* Branch handling
-* Per-cycle pipeline tracing
-* Two-pass assembler
 
 ## 🛠️ Technologies
 
 **Languages:** C++, Python, C, SystemVerilog
 
-**ML / Systems:** ONNX, PyTorch, ML inference, computational graphs, multithreading, performance optimisation
+**Frameworks:** Pytorch, ONNX, OPENMP, MPI, CUDA
 
-**Hardware:** RISC-V, RTL Design, FPGA Development, Computer Architecture
+**Tools:** Git, Quartus Prime, Vivado, ModelSim/Questa, Verilator, Synopsys Fusion Compiler, X-code Instruments(profiler)
 
-**Tools:** Git, GitHub, CMake, ModelSim, Quartus, VS Code
-
-## 🎯 Current Interests
-
-* Machine Learning Systems
-* ML Runtimes & Compilers
-* High-Performance C++
-* CPU / GPU Compute
-* Computer Architecture
-* AI Accelerators
-* Performance Engineering
-* Hardware/Software Co-design
 
 ## 📫 Connect
 
